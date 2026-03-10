@@ -1,0 +1,51 @@
+/* AeroBlocker - Bloqueio Cosmético */
+
+/* Espaços vazios de anúncios genéricos */
+[id*="google_ads"],
+[id*="div-gpt-ad"],
+[class*="google-ad"],
+[class*="GoogleAd"],
+[class*="adsbygoogle"],
+[class*="banner-ad"],
+[class*="ad-banner"],
+[class*="ad-container"],
+[class*="ad-wrapper"],
+[class*="ad-slot"],
+[class*="ad-unit"],
+[class*="ad-box"],
+[class*="ad-frame"],
+[class*="ad-block"],
+[class*="advert"],
+[class*="advertisement"],
+[class*="advertising"],
+[class*="sponsor-ad"],
+[class*="sponsored-content"],
+[class*="promoted-content"],
+[id*="taboola"],
+[class*="taboola"],
+[id*="outbrain"],
+[class*="outbrain"],
+
+/* Iframes de anúncio */
+iframe[src*="doubleclick"],
+iframe[src*="googlesyndication"],
+iframe[src*="adservice"],
+iframe[src*="amazon-adsystem"],
+iframe[src*="taboola"],
+iframe[src*="outbrain"],
+
+/* Banners fixos no topo/rodapé */
+[class*="sticky-ad"],
+[class*="fixed-ad"],
+[class*="floating-ad"],
+[id*="sticky-ad"],
+[id*="floating-ad"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}

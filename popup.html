@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>AeroBlocker</title>
+  <style>
+    body {
+      width: 220px;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+      background-color: #202020;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 16px;
+      margin-bottom: 4px;
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+      padding-bottom: 8px;
+    }
+
+    #nomeSite {
+      font-size: 11px;
+      color: #cccccc;
+      margin-bottom: 16px;
+      word-break: break-all;
+    }
+
+    #botao {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ffffff;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #botao.ativo {
+      background-color: #2d2d2d;
+      color: #ffffff;
+    }
+
+    #botao.desativado {
+      background-color: #444444;
+      color: #aaaaaa;
+      border-color: #aaaaaa;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>⚡ AeroBlocker</h1>
+  <div id="nomeSite">carregando...</div>
+  <button id="botao" class="ativo">Carregando...</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
